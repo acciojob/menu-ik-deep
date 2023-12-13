@@ -21,14 +21,14 @@ useEffect(()=>{
 },[selectedCategory])
 console.log(setFilterData);
     return(
-        <div className="main">
+        <div id="main" className="main">
             <div className="header">
             <h1>Our Manu</h1>
         <ul className="menu">
-            <li className="menu-item" onClick={selectCategory}>All</li>
-            <li className="menu-item" onClick={selectCategory}>Breakfast</li>
-            <li className="menu-item" onClick={selectCategory}>Lunch</li>
-            <li className="menu-item" onClick={selectCategory}>Shakes</li>
+            <li id="filter-btn-0" onClick={selectCategory}>All</li>
+            <li id="filter-btn-1" onClick={selectCategory}>Breakfast</li>
+            <li id="filter-btn-2" onClick={selectCategory}>Lunch</li>
+            <li id="filter-btn-3" onClick={selectCategory}>Shakes</li>
         </ul>
             </div>
        <div className="
