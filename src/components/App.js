@@ -24,12 +24,12 @@ console.log(setFilterData);
         <div id="main" className="main">
             <div className="header">
             <h1>Our Manu</h1>
-        <ul className="menu">
-            <li id="filter-btn-0" data-test-id="menu-item-all" onClick={selectCategory}>All</li>
-            <li id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={selectCategory}>Breakfast</li>
-            <li id="filter-btn-2" data-test-id="menu-item-lunch" onClick={selectCategory}>Lunch</li>
-            <li id="filter-btn-3" data-test-id="menu-item-shakes" onClick={selectCategory}>Shakes</li>
-        </ul>
+    <div className="menu">
+            <button id="filter-btn-0" data-test-id="menu-item-all" onClick={selectCategory}>All</button>
+            <button id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={selectCategory}>Breakfast</button>
+            <button id="filter-btn-2" data-test-id="menu-item-lunch" onClick={selectCategory}>Lunch</button>
+            <button id="filter-btn-3" data-test-id="menu-item-shakes" onClick={selectCategory}>Shakes</button>
+        </div>
             </div>
        <div className="
        menuList">   <MenuDetails data={FilterData}/></div>
