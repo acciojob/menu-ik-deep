@@ -25,10 +25,10 @@ console.log(setFilterData);
             <div className="header">
             <h1>Our Manu</h1>
         <ul className="menu">
-            <li id="filter-btn-0" onClick={selectCategory}>All</li>
-            <li id="filter-btn-1" onClick={selectCategory}>Breakfast</li>
-            <li id="filter-btn-2" onClick={selectCategory}>Lunch</li>
-            <li id="filter-btn-3" onClick={selectCategory}>Shakes</li>
+            <li id="filter-btn-0" data-test-id="menu-item-all" onClick={selectCategory}>All</li>
+            <li id="filter-btn-1" data-test-id="menu-item-breakfast" onClick={selectCategory}>Breakfast</li>
+            <li id="filter-btn-2" data-test-id="menu-item-lunch" onClick={selectCategory}>Lunch</li>
+            <li id="filter-btn-3" data-test-id="menu-item-shakes" onClick={selectCategory}>Shakes</li>
         </ul>
             </div>
        <div className="
